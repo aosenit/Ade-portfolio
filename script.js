@@ -22,7 +22,7 @@ function navEffect () {
   navList.forEach((list) => list.classList.remove('actives'))
    this.classList.add('actives')
    show()
-   toggleElement.innerHTML = '='
+   toggleElement.innerHTML = `<h2><i id= 'toggle' class='bx bx-menu  bx-spin-hover'></i></h2>`
 }
 navList.forEach(list => list.addEventListener('click', navEffect ))
 
